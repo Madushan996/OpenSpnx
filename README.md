@@ -99,7 +99,7 @@ The installer will be output to the `release/` folder.
 
 OpenSpnx is completely free and open source. If you find it useful, consider supporting its development:
 
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=for-the-badge&logo=paypal)](https://paypal.me/Madushan996)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=for-the-badge&logo=paypal)](https://www.paypal.com/donate/?business=madushan7017@gmail.com&currency_code=USD)
 
 Every donation, no matter the size, helps keep this project alive and growing. Thank you!
 
