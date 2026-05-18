@@ -1,7 +1,7 @@
 import React from 'react'
 import {
   LayoutDashboard, Wallet, TrendingUp, Receipt, ArrowLeftRight, BarChart2,
-  Leaf,
+  Leaf, Heart,
 } from 'lucide-react'
 import { VIEWS, CURRENCIES } from '../constants'
 
@@ -71,7 +71,17 @@ export default function Layout({ children, view, setView, data, saveData }) {
               </option>
             ))}
           </select>
-          <p className="text-slate-300 text-xs text-center mt-3">Data saved locally</p>
+
+          {/* Donate button */}
+          <button
+            onClick={() => window.api.openExternal('https://www.paypal.com/donate/?business=madushan7017@gmail.com&currency_code=USD')}
+            className="mt-3 w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white text-xs font-semibold py-2 px-3 rounded-lg transition-all shadow-sm hover:shadow-md"
+          >
+            <Heart size={12} className="fill-white" />
+            Donate via PayPal
+          </button>
+
+          <p className="text-slate-300 text-xs text-center mt-2">Data saved locally</p>
         </div>
       </aside>
 

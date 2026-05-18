@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain } = require('electron')
+const { app, BrowserWindow, ipcMain, shell } = require('electron')
 const path = require('path')
 const fs = require('fs')
 
@@ -61,6 +61,9 @@ ipcMain.handle('getData', () => loadData())
 ipcMain.handle('saveData', (_, data) => {
   saveData(data)
   return { success: true }
+})
+ipcMain.handle('openExternal', (_, url) => {
+  shell.openExternal(url)
 })
 
 app.whenReady().then(createWindow)
