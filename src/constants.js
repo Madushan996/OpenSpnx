@@ -1,0 +1,90 @@
+export const VIEWS = {
+  DASHBOARD: 'dashboard',
+  ACCOUNTS: 'accounts',
+  INCOME: 'income',
+  EXPENSES: 'expenses',
+  TRANSFERS: 'transfers',
+  REPORTS: 'reports',
+}
+
+export const CURRENCIES = [
+  { code: 'LKR', symbol: 'Rs.', name: 'Sri Lankan Rupee' },
+  { code: 'USD', symbol: '$', name: 'US Dollar' },
+  { code: 'EUR', symbol: '€', name: 'Euro' },
+  { code: 'GBP', symbol: '£', name: 'British Pound' },
+  { code: 'JPY', symbol: '¥', name: 'Japanese Yen' },
+  { code: 'INR', symbol: '₹', name: 'Indian Rupee' },
+  { code: 'AUD', symbol: 'A$', name: 'Australian Dollar' },
+  { code: 'CAD', symbol: 'C$', name: 'Canadian Dollar' },
+  { code: 'CHF', symbol: 'Fr.', name: 'Swiss Franc' },
+  { code: 'CNY', symbol: '¥', name: 'Chinese Yuan' },
+  { code: 'SGD', symbol: 'S$', name: 'Singapore Dollar' },
+  { code: 'HKD', symbol: 'HK$', name: 'Hong Kong Dollar' },
+  { code: 'AED', symbol: 'AED', name: 'UAE Dirham' },
+  { code: 'SAR', symbol: 'SAR', name: 'Saudi Riyal' },
+  { code: 'QAR', symbol: 'QR', name: 'Qatari Riyal' },
+  { code: 'KWD', symbol: 'KD', name: 'Kuwaiti Dinar' },
+  { code: 'MYR', symbol: 'RM', name: 'Malaysian Ringgit' },
+  { code: 'THB', symbol: '฿', name: 'Thai Baht' },
+  { code: 'PHP', symbol: '₱', name: 'Philippine Peso' },
+  { code: 'IDR', symbol: 'Rp', name: 'Indonesian Rupiah' },
+  { code: 'KRW', symbol: '₩', name: 'South Korean Won' },
+  { code: 'BDT', symbol: '৳', name: 'Bangladeshi Taka' },
+  { code: 'PKR', symbol: '₨', name: 'Pakistani Rupee' },
+  { code: 'NPR', symbol: 'NPR', name: 'Nepalese Rupee' },
+  { code: 'NZD', symbol: 'NZ$', name: 'New Zealand Dollar' },
+  { code: 'ZAR', symbol: 'R', name: 'South African Rand' },
+  { code: 'BRL', symbol: 'R$', name: 'Brazilian Real' },
+  { code: 'MXN', symbol: 'MX$', name: 'Mexican Peso' },
+  { code: 'RUB', symbol: '₽', name: 'Russian Ruble' },
+  { code: 'TRY', symbol: '₺', name: 'Turkish Lira' },
+  { code: 'SEK', symbol: 'kr', name: 'Swedish Krona' },
+  { code: 'NOK', symbol: 'kr', name: 'Norwegian Krone' },
+  { code: 'DKK', symbol: 'kr', name: 'Danish Krone' },
+]
+
+export const EXPENSE_CATEGORIES = [
+  'Food & Dining',
+  'Transport',
+  'Entertainment',
+  'Shopping',
+  'Healthcare',
+  'Bills & Utilities',
+  'Education',
+  'Personal Care',
+  'Other',
+]
+
+export const EXPENSE_CATEGORY_COLORS = {
+  'Food & Dining': '#f59e0b',
+  'Transport': '#3b82f6',
+  'Entertainment': '#8b5cf6',
+  'Shopping': '#ec4899',
+  'Healthcare': '#10b981',
+  'Bills & Utilities': '#f97316',
+  'Education': '#06b6d4',
+  'Personal Care': '#84cc16',
+  'Other': '#6b7280',
+}
+
+export const INCOME_CATEGORIES = [
+  'Salary',
+  'Freelance',
+  'Business',
+  'Investment',
+  'Interest',
+  'Gift / Bonus',
+  'Rental',
+  'Other',
+]
+
+export const INCOME_CATEGORY_COLORS = {
+  'Salary': '#10b981',
+  'Freelance': '#06b6d4',
+  'Business': '#6366f1',
+  'Investment': '#f59e0b',
+  'Interest': '#14b8a6',
+  'Gift / Bonus': '#ec4899',
+  'Rental': '#8b5cf6',
+  'Other': '#6b7280',
+}
